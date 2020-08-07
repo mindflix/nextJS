@@ -1,0 +1,27 @@
+{
+  "name": "nextjs",
+  "version": "4.0.0",
+  "description": "Site Auteur de Marco Pacheco propulsé par Nicolas Demol & Léo Borniche",
+  "main": "index.js",
+  "author": "N.DEMOL",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "clsx": "latest",
+    "json-server": "^0.16.1",
+    "next": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "mock-server": "json-server --watch db.json -p 4001 -d 3000",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  }
+}
